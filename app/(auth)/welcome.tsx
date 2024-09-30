@@ -48,7 +48,7 @@ export default function Welcome() {
         </View>
 
         {/* Get Started Button */}
-        <CustomButton title="Get Started" variant="primary" />
+        <CustomButton className="w-5/6" title="Get Started" variant="primary" />
       </View>
     </SafeAreaView>
   );

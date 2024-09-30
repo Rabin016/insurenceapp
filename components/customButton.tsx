@@ -1,4 +1,5 @@
 import { Text, TouchableOpacity } from "react-native";
+import { ButtonProps } from "@/types/types";
 
 const variantStyles: { [key in ButtonProps["variant"]]: string } = {
   primary: "bg-primary-500",
@@ -23,11 +24,13 @@ export default function CustomButton({
   return (
     <TouchableOpacity
       onPress={() => onPress?.()}
-      className={`button-base ${getVariantStyle(variant)} ${className}`}
+      className={`button-base ${getVariantStyle(variant)} ${className} w-full py-4 rounded-lg`}
       {...props}
     >
       {IconLeft && <IconLeft />}
-      <Text className="button-text">{title}</Text>
+      <Text className="button-text text-center font-mainSemiBold text-lg text-gray-900 dark:text-gray-200">
+        {title}
+      </Text>
       {IconRight && <IconRight />}
     </TouchableOpacity>
   );

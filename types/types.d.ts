@@ -1,4 +1,4 @@
-import { AnimationObject } from "lottie-react-native";
+import ReactNativeSVG from "react-native-svg/lib/typescript/ReactNativeSVG";
 
 declare interface ButtonProps extends TouchableOpacityProps {
   title: string;
@@ -13,5 +13,5 @@ declare interface onboardingContentProps {
   id: number;
   title: string;
   description: string;
-  image: AnimationObject;
+  image: ReactNativeSVG<ReactNativeSVG.Path>;
 }

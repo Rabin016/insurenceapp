@@ -12,13 +12,7 @@ import Svg, {
 } from "react-native-svg";
 /* SVGR has dropped some elements not supported by react-native-svg: title */
 const WelcomeImage3 = (props: SvgProps) => (
-  <Svg
-    {...props}
-    data-name="Layer 1"
-    width={1086}
-    height={811.37}
-    viewBox="0 0 1086 811.37"
-  >
+  <Svg {...props} data-name="Layer 1" viewBox="0 0 1086 811.37">
     <Defs>
       <LinearGradient
         id="b77fcadf-efbd-44d1-9146-365d58ec581c-70"

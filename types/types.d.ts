@@ -2,7 +2,7 @@ import { AnimationObject } from "lottie-react-native";
 
 declare interface ButtonProps extends TouchableOpacityProps {
   title: string;
-  variant: "primary" | "secondary" | "danger" | "outline" | "success";
+  variant: "primary" | "secondary" | "danger" | "outline" | "success" | "ghost";
   IconLeft?: React.ComponentType<any>;
   IconRight?: React.ComponentType<any>;
   className?: string;

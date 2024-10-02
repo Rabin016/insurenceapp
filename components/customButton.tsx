@@ -8,7 +8,7 @@ const variantStyles: { [key in ButtonProps["variant"]]: string } = {
   success: "bg-success-500 active:bg-success-800",
   danger: "bg-danger-500 active:bg-danger-800",
   outline: "bg-transparent border border-primary-500",
-  ghost: "bg-transparent active:bg-gray-300",
+  ghost: "bg-transparent active:bg-slate-300",
 };
 
 const textVariantStyles: { [key in ButtonProps["variant"]]: string } = {
@@ -17,7 +17,7 @@ const textVariantStyles: { [key in ButtonProps["variant"]]: string } = {
   success: "text-white",
   danger: "text-white",
   outline: "text-primary-500",
-  ghost: "text-gray-700",
+  ghost: "text-slate-700",
 };
 
 const StyledText = styled(Text);

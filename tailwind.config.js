@@ -10,7 +10,7 @@ module.exports = {
       success: colors.emerald,
       danger: colors.rose,
       warning: colors.amber,
-      gray: colors.gray,
+      slate: colors.slate,
       black: colors.black,
       white: colors.white,
     },

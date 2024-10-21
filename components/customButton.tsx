@@ -29,19 +29,6 @@ const getBgVariantStyle = (variant: ButtonProps["variant"]) =>
 const getTextVariantStyle = (variant: ButtonProps["variant"]) =>
   textVariantStyles[variant] || "text-white";
 
-/**
- * Custom Button component with styling options.
- *
- * @param {ButtonProps} props - The button props.
- * @param {string} props.title - The button title.
- * @param {ButtonProps["variant"]} props.variant - The button variant.
- * @param {JSX.Element} props.IconLeft - The left icon.
- * @param {JSX.Element} props.IconRight - The right icon.
- * @param {Function} props.onPress - The button press handler.
- * @param {string} props.className - The additional class names.
- * @param {object} props - The rest of the props.
- * @returns {JSX.Element} The Custom Button component.
- */
 export default function CustomButton({
   title,
   variant,

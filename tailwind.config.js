@@ -13,6 +13,7 @@ module.exports = {
       slate: colors.slate,
       black: colors.black,
       white: colors.white,
+      transparent: colors.transparent,
     },
     extend: {
       fontFamily: {
